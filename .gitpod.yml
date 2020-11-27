@@ -1,0 +1,7 @@
+image: gitpod/workspace-full-vnc
+ports:
+  - port: 5050
+    onOpen: open-preview
+tasks:
+  - init: pip install pygame
+    command: python3 src/base.py
